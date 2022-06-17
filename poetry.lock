@@ -422,14 +422,6 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
-name = "kaleido"
-version = "0.2.1.post1"
-description = "Static image export for web-based visualization libraries with zero dependencies"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "kiwisolver"
 version = "1.4.2"
 description = "A fast implementation of the Cassowary constraint solver"
@@ -578,7 +570,7 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "notebook"
-version = "6.4.11"
+version = "6.4.12"
 description = "A web-based notebook environment for interactive computing"
 category = "main"
 optional = false
@@ -1066,7 +1058,7 @@ notebook = ">=4.4.1"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "e98d86fd0c648fa2b658ead20101aae09de9c2e71a7812d7beac4d3759b09b50"
+content-hash = "89f265c07e62b4a38c66d6f050baf9ffc3e62c8458ccb75a006c578d335c7d43"
 
 [metadata.files]
 appnope = [
@@ -1277,9 +1269,6 @@ jupyterlab-widgets = [
     {file = "jupyterlab_widgets-1.1.0-py3-none-any.whl", hash = "sha256:c2a9bd3789f120f64d73268c066ed3b000c56bc1dda217be5cdc43e7b4ebad3f"},
     {file = "jupyterlab_widgets-1.1.0.tar.gz", hash = "sha256:d5f41bc1713795385f718d44dcba47e1e1473c6289f28a95aa6b2c0782ee372a"},
 ]
-kaleido = [
-    {file = "kaleido-0.2.1.post1-py2.py3-none-manylinux2014_armv7l.whl", hash = "sha256:d313940896c24447fc12c74f60d46ea826195fc991f58569a6e73864d53e5c20"},
-]
 kiwisolver = [
     {file = "kiwisolver-1.4.2-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:6e395ece147f0692ca7cdb05a028d31b83b72c369f7b4a2c1798f4b96af1e3d8"},
     {file = "kiwisolver-1.4.2-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:0b7f50a1a25361da3440f07c58cd1d79957c2244209e4f166990e770256b6b0b"},
@@ -1433,8 +1422,8 @@ nest-asyncio = [
     {file = "nest_asyncio-1.5.5.tar.gz", hash = "sha256:e442291cd942698be619823a17a86a5759eabe1f8613084790de189fe9e16d65"},
 ]
 notebook = [
-    {file = "notebook-6.4.11-py3-none-any.whl", hash = "sha256:b4a6baf2eba21ce67a0ca11a793d1781b06b8078f34d06c710742e55f3eee505"},
-    {file = "notebook-6.4.11.tar.gz", hash = "sha256:709b1856a564fe53054796c80e17a67262071c86bfbdfa6b96aaa346113c555a"},
+    {file = "notebook-6.4.12-py3-none-any.whl", hash = "sha256:8c07a3bb7640e371f8a609bdbb2366a1976c6a2589da8ef917f761a61e3ad8b1"},
+    {file = "notebook-6.4.12.tar.gz", hash = "sha256:6268c9ec9048cff7a45405c990c29ac9ca40b0bc3ec29263d218c5e01f2b4e86"},
 ]
 numpy = [
     {file = "numpy-1.22.4-cp310-cp310-macosx_10_14_x86_64.whl", hash = "sha256:ba9ead61dfb5d971d77b6c131a9dbee62294a932bf6a356e48c75ae684e635b3"},
